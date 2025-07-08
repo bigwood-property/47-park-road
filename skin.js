@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: bigwood_v1.ggsk
-// Generated Tue Jul 8 16:58:31 2025
+// Generated Tue Jul 8 17:16:42 2025
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -7901,8 +7901,8 @@ function pano2vrSkin(player,base) {
 		}
 		me._loading.appendChild(me._loadingbar);
 		me.divSkin.appendChild(me._loading);
-		el=me._container_1=document.createElement('div');
-		el.ggId="Container 1";
+		el=me._floorplan_container=document.createElement('div');
+		el.ggId="floorplan_container";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -7917,13 +7917,13 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._container_1.ggIsActive=function() {
+		me._floorplan_container.ggIsActive=function() {
 			return false;
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._container_1.logicBlock_visible = function() {
+		me._floorplan_container.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				(player.getIsMobile() == true)
@@ -7934,20 +7934,20 @@ function pano2vrSkin(player,base) {
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._container_1.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._container_1.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._container_1.style[domTransition]='';
-				if (me._container_1.ggCurrentLogicStateVisible == 0) {
-					me._container_1.style.visibility="hidden";
-					me._container_1.ggVisible=false;
+			if (me._floorplan_container.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._floorplan_container.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._floorplan_container.style[domTransition]='';
+				if (me._floorplan_container.ggCurrentLogicStateVisible == 0) {
+					me._floorplan_container.style.visibility="hidden";
+					me._floorplan_container.ggVisible=false;
 				}
 				else {
-					me._container_1.style.visibility=(Number(me._container_1.style.opacity)>0||!me._container_1.style.opacity)?'inherit':'hidden';
-					me._container_1.ggVisible=true;
+					me._floorplan_container.style.visibility=(Number(me._floorplan_container.style.opacity)>0||!me._floorplan_container.style.opacity)?'inherit':'hidden';
+					me._floorplan_container.ggVisible=true;
 				}
 			}
 		}
-		me._container_1.ggUpdatePosition=function (useTransition) {
+		me._floorplan_container.ggUpdatePosition=function (useTransition) {
 		}
 		el=me._floorplan=document.createElement('div');
 		el.ggFilter = '';
@@ -8009,8 +8009,8 @@ function pano2vrSkin(player,base) {
 			}
 			me._floorplan.ggLastNodeId = id;
 		}
-		me._container_1.appendChild(me._floorplan);
-		me.divSkin.appendChild(me._container_1);
+		me._floorplan_container.appendChild(me._floorplan);
+		me.divSkin.appendChild(me._floorplan_container);
 		me._popup_video_file.ggVideoSource = 'media/';
 		me._popup_video_file.ggVideoNotLoaded = true;
 		me._popup_video_url.ggVideoSource = '';
@@ -9908,7 +9908,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="ht_node_visited";
 		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=false;
+		el.ggVisible=true;
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
@@ -9917,7 +9917,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : -16px;';
-		hs+='visibility : hidden;';
+		hs+='visibility : inherit;';
 		hs+='width : 40px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
@@ -9953,8 +9953,8 @@ function pano2vrSkin(player,base) {
 					me._ht_node_visited.ggVisible=true;
 				}
 				else {
-					me._ht_node_visited.style.visibility="hidden";
-					me._ht_node_visited.ggVisible=false;
+					me._ht_node_visited.style.visibility=(Number(me._ht_node_visited.style.opacity)>0||!me._ht_node_visited.style.opacity)?'inherit':'hidden';
+					me._ht_node_visited.ggVisible=true;
 				}
 			}
 		}
@@ -13898,7 +13898,7 @@ function pano2vrSkin(player,base) {
 	me._phone3.logicBlock_scaling();
 	me._close.logicBlock_visible();
 	me._loading.logicBlock_visible();
-	me._container_1.logicBlock_visible();
+	me._floorplan_container.logicBlock_visible();
 	me._rectilinear.logicBlock_alpha();
 	me._fisheye.logicBlock_alpha();
 	me._stereographic.logicBlock_alpha();
@@ -13908,7 +13908,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('fullscreenenter', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha(); });
 	player.addListener('fullscreenexit', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha(); });
 	player.addListener('changenodeid', function(args) { me._menu_button.logicBlock_position();me._loading_multires.logicBlock_visible();me._screentint.logicBlock_alpha();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_bg.logicBlock_position();me._controller_bg.logicBlock_size();me._controller_bg.logicBlock_visible();me._controller_slider.logicBlock_position();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._thumbnail_hide_button_show.logicBlock_alpha();me._thumbnail_show_button_show.logicBlock_alpha();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._web_page.logicBlock_visible();me._userdata.logicBlock_visible();me._information.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._loading.logicBlock_visible(); });
-	player.addListener('configloaded', function(args) { me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_visible();me._thumbnail.logicBlock_visible();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._container_1.logicBlock_visible(); });
+	player.addListener('configloaded', function(args) { me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_visible();me._thumbnail.logicBlock_visible();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._floorplan_container.logicBlock_visible(); });
 	player.addListener('projectionchanged', function(args) { me._rectilinear.logicBlock_alpha();me._fisheye.logicBlock_alpha();me._stereographic.logicBlock_alpha(); });
 	player.addListener('autorotatechanged', function(args) { me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha(); });
 	player.addListener('gyrochanged', function(args) { me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha(); });
