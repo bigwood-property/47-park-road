@@ -14,11 +14,11 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287167" customnodeid="" author="" longitude="-0.593472" description="" title="Outside Front" datetime="08/07/2025 08:51" source="" comment="" tags="JPG photos"/>
+    <userdata copyright="" info="" latitude="52.287167" customnodeid="" author="" longitude="-0.593472" description="" title="Outside Front" datetime="08/07/2025 08:51" source="" comment="" tags="JPG photos|showthumb"/>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-3.97" target="" tilt="-0.76" description="" title="Front hallway 1" skinid="ht_node" id="Point01" url="{node1}"/>
+      <hotspot pan="-3.97" target="" tilt="-0.76" description="" title="Front entrance" skinid="ht_node" id="Point01" url="{node1}"/>
       <hotspot pan="-271.15" target="" tilt="-7.45" description="" title="Outside Side" skinid="ht_node" id="Point02" url="{node10}"/>
     </hotspots>
     <media/>
@@ -66,14 +66,14 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287278" customnodeid="" author="" longitude="-0.593333" description="" title="Front hallway 1" datetime="08/07/2025 08:48" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287278" customnodeid="" author="" longitude="-0.593333" description="" title="Front entrance" datetime="08/07/2025 08:48" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="10.32346868547832" mapid="FloorPlan01" x_floorplan_percent="22.78612118073537" y="-0.2184748834800621" x="0.6408596582081822"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-6.39" target="" tilt="-23.41" description="" title="Front understair cupboard" skinid="ht_node" id="Point01" url="{node6}"/>
-      <hotspot pan="-359.63" target="" tilt="26.94" description="" title="Front landing 1" skinid="ht_node" id="Point02" url="{node3}"/>
+      <hotspot pan="-359.63" target="" tilt="26.94" description="" title="First Floor Landing" skinid="ht_node" id="Point02" url="{node3}"/>
       <hotspot pan="-10.56" target="" tilt="-10.84" description="" title="Front hallway 2" skinid="ht_node" id="Point03" url="{node2}"/>
       <hotspot pan="-263.54" target="" tilt="-28.46" description="" title="Room 1" skinid="ht_node" id="Point04" url="{node14}"/>
       <hotspot pan="-27.4" target="" tilt="-15.79" description="" title="Room 2" skinid="ht_node" id="Point05" url="{node16}"/>
@@ -130,7 +130,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-173.32" target="" tilt="-9.88" description="" title="Front hallway 1" skinid="ht_node" id="Point01" url="{node1}"/>
+      <hotspot pan="-173.32" target="" tilt="-9.88" description="" title="Front entrance" skinid="ht_node" id="Point01" url="{node1}"/>
       <hotspot pan="-266.69" target="" tilt="-18.64" description="" title="Room 3" skinid="ht_node" id="Point02" url="{node18}"/>
       <hotspot pan="-335.2" target="" tilt="-17.82" description="" title="Outside Garden" skinid="ht_node" id="Point03" url="{node9}"/>
       <hotspot pan="-146.7" target="" tilt="-15.69" description="" title="Room 2" skinid="ht_node" id="Point04" url="{node16}"/>
@@ -163,7 +163,7 @@
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-249.29" target="" tilt="-7.5" description="" title="Front hallway 2" skinid="ht_node" id="Point01" url="{node2}"/>
-      <hotspot pan="-177.21" target="" tilt="-6.46" description="" title="Rear lobby ground" skinid="ht_node" id="Point02" url="{node12}"/>
+      <hotspot pan="-177.21" target="" tilt="-6.46" description="" title="Rear entrance" skinid="ht_node" id="Point02" url="{node12}"/>
       <hotspot pan="-329.65" target="" tilt="-7.55" description="" title="Outside Side" skinid="ht_node" id="Point03" url="{node10}"/>
     </hotspots>
     <media/>
@@ -185,14 +185,14 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593333" description="" title="Front landing 1" datetime="08/07/2025 08:43" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593333" description="" title="First Floor Landing" datetime="08/07/2025 08:43" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="34.17068134893324" mapid="FloorPlan01" x_floorplan_percent="67.3226307612636" y="-0.7231518643190057" x="1.893448990160539"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-169.53" target="" tilt="-26.53" description="" title="Front landing 2" skinid="ht_node" id="Point01" url="{node4}"/>
-      <hotspot pan="-185.87" target="" tilt="-42.86" description="" title="Front hallway 1" skinid="ht_node" id="Point02" url="{node1}"/>
+      <hotspot pan="-185.87" target="" tilt="-42.86" description="" title="Front entrance" skinid="ht_node" id="Point02" url="{node1}"/>
       <hotspot pan="-82.23" target="" tilt="-32.59" description="" title="Room 4" skinid="ht_node" id="Point03" url="{node20}"/>
       <hotspot pan="-160.44" target="" tilt="-11.98" description="" title="Room 5" skinid="ht_node" id="Point04" url="{node22}"/>
     </hotspots>
@@ -221,7 +221,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-338.58" target="" tilt="-18.53" description="" title="Front landing 1" skinid="ht_node" id="Point01" url="{node3}"/>
+      <hotspot pan="-338.58" target="" tilt="-18.53" description="" title="First Floor Landing" skinid="ht_node" id="Point01" url="{node3}"/>
       <hotspot pan="-191.78" target="" tilt="-29.59" description="" title="Room 6 1" skinid="ht_node" id="Point02" url="{node23}"/>
       <hotspot pan="-86.51" target="" tilt="-28.94" description="" title="Room 5" skinid="ht_node" id="Point03" url="{node22}"/>
     </hotspots>
@@ -244,14 +244,14 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287306" customnodeid="" author="" longitude="-0.593222" description="" title="Kitchen" datetime="08/07/2025 08:37" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287306" customnodeid="" author="" longitude="-0.593222" description="" title="Kitchen" datetime="08/07/2025 08:37" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="48.17618719889883" mapid="FloorPlan01" x_floorplan_percent="12.94665976178146" y="-1.01954945624029" x="0.3641248058001036"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-203.43" target="" tilt="-9.83" description="" title="Front hallway 2" skinid="ht_node" id="Point01" url="{node2}"/>
-      <hotspot pan="-343.18" target="" tilt="-12.06" description="" title="Rear lobby ground" skinid="ht_node" id="Point02" url="{node12}"/>
+      <hotspot pan="-343.18" target="" tilt="-12.06" description="" title="Rear entrance" skinid="ht_node" id="Point02" url="{node12}"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0"/>
@@ -272,7 +272,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287306" customnodeid="" author="" longitude="-0.593194" description="" title="Rear lobby ground" datetime="08/07/2025 08:37" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287306" customnodeid="" author="" longitude="-0.593194" description="" title="Rear entrance" datetime="08/07/2025 08:37" source="" comment="" tags="JPG photos">
       <mapcoords y_floorplan_percent="67.89401238816242" mapid="FloorPlan01" x_floorplan_percent="17.27084412221647" y="-1.436836483687209" x="0.4857424909373382"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -308,7 +308,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-180.86" target="" tilt="-53.65" description="" title="Rear lobby ground" skinid="ht_node" id="Point01" url="{node12}"/>
+      <hotspot pan="-180.86" target="" tilt="-53.65" description="" title="Rear entrance" skinid="ht_node" id="Point01" url="{node12}"/>
       <hotspot pan="-203.8" target="" tilt="15.52" description="" title="Rear lobby first" skinid="ht_node" id="Point02" url="{node11}"/>
       <hotspot pan="-184.34" target="" tilt="-31.37" description="" title="Outside Garden" skinid="ht_node" id="Point03" url="{node9}"/>
     </hotspots>
@@ -360,14 +360,14 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287111" customnodeid="" author="" longitude="-0.593528" description="" title="Room 1" datetime="08/07/2025 08:34" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287111" customnodeid="" author="" longitude="-0.593528" description="" title="Room 1" datetime="08/07/2025 08:34" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="13.31727460426703" mapid="FloorPlan01" x_floorplan_percent="35.21491455204557" y="-0.2818325996892801" x="0.9904194717762818"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-150.6" target="" tilt="-14.07" description="" title="Room 1 Bathroom" skinid="ht_node" id="Point01" url="{node13}"/>
-      <hotspot pan="-189.74" target="" tilt="-10.12" description="" title="Front hallway 1" skinid="ht_node" id="Point02" url="{node1}"/>
+      <hotspot pan="-189.74" target="" tilt="-10.12" description="" title="Front entrance" skinid="ht_node" id="Point02" url="{node1}"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0"/>
@@ -413,7 +413,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287222" customnodeid="" author="" longitude="-0.593333" description="" title="Room 2" datetime="08/07/2025 08:49" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287222" customnodeid="" author="" longitude="-0.593333" description="" title="Room 2" datetime="08/07/2025 08:49" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="16.75843083275981" mapid="FloorPlan01" x_floorplan_percent="13.1279129984464" y="-0.3546575608493009" x="0.369222553081305"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -466,7 +466,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287278" customnodeid="" author="" longitude="-0.593361" description="" title="Room 3" datetime="08/07/2025 08:35" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287278" customnodeid="" author="" longitude="-0.593361" description="" title="Room 3" datetime="08/07/2025 08:35" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="30.5230557467309" mapid="FloorPlan01" x_floorplan_percent="34.69704816157432" y="-0.6459574054893837" x="0.9758544795442776"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -519,14 +519,14 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593306" description="" title="Room 4" datetime="08/07/2025 08:43" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593306" description="" title="Room 4" datetime="08/07/2025 08:43" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="36.4762560220234" mapid="FloorPlan01" x_floorplan_percent="55.74831693423097" y="-0.7719445882962196" x="1.567921413775246"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-267.1" target="" tilt="-13.35" description="" title="Room 4 Bathroom" skinid="ht_node" id="Point01" url="{node19}"/>
-      <hotspot pan="-341.35" target="" tilt="-17.01" description="" title="Front landing 1" skinid="ht_node" id="Point02" url="{node3}"/>
+      <hotspot pan="-341.35" target="" tilt="-17.01" description="" title="First Floor Landing" skinid="ht_node" id="Point02" url="{node3}"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0"/>
@@ -572,7 +572,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287222" customnodeid="" author="" longitude="-0.593306" description="" title="Room 5" datetime="08/07/2025 08:44" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287222" customnodeid="" author="" longitude="-0.593306" description="" title="Room 5" datetime="08/07/2025 08:44" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="15.1410874053682" mapid="FloorPlan01" x_floorplan_percent="56.78404971517349" y="-0.3204298291040911" x="1.597051398239254"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -653,7 +653,7 @@
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max fov="120" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593333" description="" title="Room 6 2" datetime="08/07/2025 08:47" source="" comment="" tags="JPG photos">
+    <userdata copyright="" info="" latitude="52.287250" customnodeid="" author="" longitude="-0.593333" description="" title="Room 6 2" datetime="08/07/2025 08:47" source="" comment="" tags="JPG photos|showthumb">
       <mapcoords y_floorplan_percent="11.45905024088094" mapid="FloorPlan01" x_floorplan_percent="80.26929052304506" y="-0.242507120662869" x="2.257573795960642"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -713,7 +713,7 @@
       <label width="180" background="1" height="20" backgroundalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" enabled="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000" textalpha="1"/>
       <polystyle handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-126.13" target="" tilt="-23.64" description="" title="Room 8 Bathroom" skinid="ht_node" id="Point01" url="{node26}"/>
-      <hotspot pan="-315.84" target="" tilt="-17.09" description="" title="Rear lobby ground" skinid="ht_node" id="Point02" url="{node12}"/>
+      <hotspot pan="-315.84" target="" tilt="-17.09" description="" title="Rear entrance" skinid="ht_node" id="Point02" url="{node12}"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0" zoomin="0" blendtime="1" zoomspeed="2" zoomout="0"/>
