@@ -892,7 +892,9 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata customnodeid="" author="" description="" comment="" tags="JPG photos" info="" title="Room 7" longitude="-0.593278" copyright="" datetime="12/07/2025 14:20" source="" latitude="52.287139"/>
+    <userdata customnodeid="" author="" description="" comment="" tags="JPG photos" info="" title="Room 7" longitude="-0.593278" copyright="" datetime="12/07/2025 14:20" source="" latitude="52.287139">
+      <mapcoords x="2.218976566545831" x_floorplan_percent="78.89694458829622" mapid="FloorPlan01" y="-0.6459574054893837" y_floorplan_percent="30.5230557467309"/>
+    </userdata>
     <hotspots height="20" width="180" wordwrap="1">
       <label bordercolor="0x000000" height="20" borderradius="1" width="180" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1" backgroundalpha="1" border="1" borderalpha="1" enabled="1"/>
       <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
@@ -907,5 +909,5 @@
   <masternode>
     <userdata customnodeid="" author="" description="" comment="" tags="" info="" title="" longitude="" copyright="" datetime="" source="" latitude=""/>
   </masternode>
-  <map transparent="0" bgcolor="rgba(255, 255, 255, 1)" height="2906" id="FloorPlan01" floorplannorth="0" type="file" width="3862" tileformat="jpg" title="" zoomlevels="4"/>
+  <map transparent="0" bgcolor="rgba(255, 255, 255, 1)" height="2906" id="FloorPlan01" floorplannorth="62" type="file" width="3862" tileformat="jpg" title="" zoomlevels="4"/>
 </tour>
