@@ -634,7 +634,7 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label bordercolor="0x000000" borderalpha="1" width="180" wordwrap="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1" backgroundalpha="1" textcolor="0x000000"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
-      <hotspot description="" tilt="-21.66" target="" url="{node24}" skinid="ht_node" title="Room 6 2" id="Point01" pan="-183.01"/>
+      <hotspot description="" tilt="-21.66" target="" url="{node24}" skinid="ht_node" title="Room 6" id="Point01" pan="-183.01"/>
       <hotspot description="" tilt="-23.69" target="" url="{node4}" skinid="ht_node" title="Front landing 2" id="Point02" pan="-307.51"/>
     </hotspots>
     <media/>
@@ -656,7 +656,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360" pan="360" fov="120"/>
     </view>
-    <userdata customnodeid="" description="" longitude="-0.593333" source="" comment="" info="" copyright="" tags="JPG photos|showthumb" title="Room 6 2" author="" latitude="52.287250" datetime="08/07/2025 08:47">
+    <userdata customnodeid="" description="" longitude="-0.593333" source="" comment="" info="" copyright="" tags="JPG photos|showthumb" title="Room 6" author="" latitude="52.287250" datetime="08/07/2025 08:47">
       <mapcoords y="-0.242507120662869" x="2.257573795960642" mapid="FloorPlan01" y_floorplan_percent="11.45905024088094" x_floorplan_percent="80.26929052304506"/>
     </userdata>
     <hotspots width="180" wordwrap="1" height="20">
@@ -688,7 +688,7 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label bordercolor="0x000000" borderalpha="1" width="180" wordwrap="1" height="20" background="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1" backgroundalpha="1" textcolor="0x000000"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
-      <hotspot description="" tilt="-20.38" target="" url="{node24}" skinid="ht_node" title="Room 6 2" id="Point01" pan="-65.51"/>
+      <hotspot description="" tilt="-20.38" target="" url="{node24}" skinid="ht_node" title="Room 6" id="Point01" pan="-65.51"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" blendcolor="0x000000"/>
@@ -893,7 +893,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360" pan="360" fov="120"/>
     </view>
-    <userdata customnodeid="" description="" longitude="-0.593278" source="" comment="" info="" copyright="" tags="JPG photos" title="Room 7" author="" latitude="52.287139" datetime="12/07/2025 14:20">
+    <userdata customnodeid="" description="" longitude="-0.593278" source="" comment="" info="" copyright="" tags="JPG photos|showthumb" title="Room 7" author="" latitude="52.287139" datetime="12/07/2025 14:20">
       <mapcoords y="-0.6459574054893837" x="2.218976566545831" mapid="FloorPlan01" y_floorplan_percent="30.5230557467309" x_floorplan_percent="78.89694458829622"/>
     </userdata>
     <hotspots width="180" wordwrap="1" height="20">
